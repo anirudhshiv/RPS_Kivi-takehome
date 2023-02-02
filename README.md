@@ -6,10 +6,11 @@ Rock Paper Scissors game implemented with standard rules:
 * Scissors>Paper
 * Paper>Rock
 
-This is the core fn, script calls in in a while loop:
+This is the core fn, the script calls it in a while loop:
 > play_rps("","")
-* Accepts only lower case "r","p","s"
-* While loop terminates only when user picks "n" or "N" for "Play again? (Y/N)" prompt, any other other input triggers a new game
+* It accepts only lower case "r","p","s" as arguments.
+
+The while loop terminates only when user picks "n" or "N" for "Play again? (Y/N)" prompt, any other other input triggers a new game
 
 ## Testing
 play_rps is called with all different permutations so it is exhaustively tested
